@@ -22,7 +22,7 @@ dependencies:
     sdk: flutter
   flutter_dotenv: ^5.1.0
   google_generative_ai: ^0.4.3
-  speech_to_text: ^6.3.0
+  speech_to_text: ^7.0.0
 ```
 
 ---
@@ -85,13 +85,3 @@ Use uma linguagem leve, com exemplos simples, e adicione emojis para ilustrar. �
 ```
 
 O aplicativo complementa esse prompt com o que o usuário digitar ou falar para gerar respostas personalizadas.
-
----
-
-## 💡 Melhorias Futuras
-
-- 🔁 Histórico de conselhos exibidos  
-- 💾 Opção de salvar ou compartilhar conselhos  
-- 🎨 Temas adicionais (via dropdown)  
-- 🖼️ Suporte a imagens (modo multimodal com Gemini)  
-- 🧪 Testes automatizados e integração contínua (CI/CD)  
