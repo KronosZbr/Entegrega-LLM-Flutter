@@ -1,15 +1,50 @@
-gradle-wrapper.jar
-/.gradle
-/captures/
-/gradlew
-/gradlew.bat
-/local.properties
-GeneratedPluginRegistrant.java
+# ⚙️ Build e artefatos temporários
+/build/
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
 .cxx/
+
+# 🧪 Testes e capturas
+/captures/
+
+# 🗃️ Arquivos locais de ambiente
+/local.properties
 .env
 
-# Remember to never publicly share your keystore.
-# See https://flutter.dev/to/reference-keystore
-key.properties
+# 🧱 Gradle e wrapper
+/.gradle
+/gradlew
+/gradlew.bat
+/gradle-wrapper.jar
+
+# 📱 Android específico
+android/key.properties
 **/*.keystore
 **/*.jks
+android/app/google-services.json
+
+# 🔐 iOS específico
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Flutter/Flutter.podspec
+ios/.symlinks
+ios/Pods/
+ios/.flutter-plugins
+ios/Flutter/Generated.xcconfig
+Podfile.lock
+
+# 📦 Arquivos gerados pelo Flutter
+GeneratedPluginRegistrant.java
+
+# 💻 IDEs e configs de projeto
+.idea/
+.vscode/
+*.iml
+
+# 🧪 Arquivos de log ou temporários
+*.log
+*.tmp
+*.swp
