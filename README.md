@@ -32,8 +32,7 @@ dependencies:
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+git clone https://github.com/KronosZbr/Entegrega-LLM-Flutter
 ```
 
 2. **Crie o arquivo `.env`:**
@@ -41,7 +40,7 @@ cd seu-repo
 Na raiz do projeto, crie um arquivo chamado `.env` com o seguinte conteúdo:
 
 ```
-GEMINI_API_KEY=SUA_CHAVE_AQUI
+API_KEY=SUA_CHAVE_AQUI
 ```
 
 3. **Adicione o `.env` ao `pubspec.yaml`:**
